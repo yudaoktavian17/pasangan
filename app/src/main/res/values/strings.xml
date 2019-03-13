@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cinlok</string>
+    <string name="putar">Putar</string>
+    <string name="vs">VS</string>
+    <string name="match">MATCH</string>
+    <string name="todo">TODO</string>
+</resources>

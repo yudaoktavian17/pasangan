@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <ImageView
+            android:id="@+id/dice_image"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/pa1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:contentDescription="@string/todo"/>
+
+    <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/putar"
+            android:visibility="gone"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <ImageView android:layout_width="400dp"
+                   android:layout_height="460dp"
+                   android:src="@drawable/pa1"
+                   android:id="@+id/ivDadu1"
+                   android:layout_weight="1"
+                   android:contentDescription="@string/todo"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:text="@string/vs"
+                  android:textSize="50sp"/>
+        <ImageView android:layout_width="400dp"
+                   android:layout_height="460dp"
+                   android:src="@drawable/pi1"
+                   android:id="@+id/ivDadu2"
+                   android:layout_weight="1"
+                   android:contentDescription="@string/todo"/>
+    </LinearLayout>
+    <Button android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/match"
+            android:layout_gravity="center"
+            android:id="@+id/btn_putar"/>
+
+
+</LinearLayout>
